@@ -33,7 +33,7 @@ def load_ranker(cfg_file):
     # return metapy.index.JelinekMercer(10)
 
     # OkapiBM25 best parameters = k1=.3, b=.2
-    return metapy.index.OkapiBM25(k1=.3, b=.2)
+    return metapy.index.OkapiBM25(k1=1, b=.1)
 
 
 def initialize():
